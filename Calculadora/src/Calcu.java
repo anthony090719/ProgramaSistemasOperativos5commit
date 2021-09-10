@@ -8,6 +8,9 @@ public class Calcu {
 		int opcion=0;
 		double num1, num2, res;
 		
+		do
+		{
+		
 		opcion=Integer.parseInt(JOptionPane.showInputDialog("[1]Sumar"+
 		"/n"+"[2]Restar/n"+"[3]Dividir/n"+"[4]Multiplicar/n"+"Ingresa una opcion/n"));
 		
@@ -42,9 +45,13 @@ public class Calcu {
 			JOptionPane.showMessageDialog(null, "El resultado es: "+res);
 			break;
 			
+		case 5:
+			JOptionPane.showConfirmDialog(null, "El programa ha finalizado con exito");
+		}
+		
+		}while(opcion!=5);
+			
 	}
 		
-		
+	}
 
-	}
-}
