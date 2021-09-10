@@ -12,7 +12,7 @@ public class Calcu {
 		{
 		
 		opcion=Integer.parseInt(JOptionPane.showInputDialog("[1]Sumar"+
-		"/n"+"[2]Restar/n"+"[3]Dividir/n"+"[4]Multiplicar/n"+"Ingresa una opcion/n"));
+		"\n"+"[2]Restar\n"+"[3]Dividir\n"+"[4]Multiplicar\n"+"Ingresa una opcion\n"));
 		
 		switch(opcion) 
 		{
