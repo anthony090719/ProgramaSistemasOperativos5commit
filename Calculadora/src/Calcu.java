@@ -35,6 +35,13 @@ public class Calcu {
 			JOptionPane.showMessageDialog(null, "El resultado es: "+res);
 			break;
 			
+		case 4:
+			num1=Double.parseDouble(JOptionPane.showInputDialog("escriba el primer valor: "));
+			num2=Double.parseDouble(JOptionPane.showInputDialog("escriba el segundo valor: "));
+			res=num1*num2;
+			JOptionPane.showMessageDialog(null, "El resultado es: "+res);
+			break;
+			
 	}
 		
 		
